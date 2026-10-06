@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Carte de Visite</title>
+    <link href="./css/index.css" rel="stylesheet"/>
+  
+</head>
+<body>
+
+    <div class="container">
+        <!-- LEFT: form inputs -->
+        <div class="form-panel">
+            <h2>Crée ta carte</h2>
+
+            <div class="form-group">
+                <label>Ton prénom</label>
+                <input type="text" id="inputName" placeholder="Ex : Anis" value="Anis">
+            </div>
+
+            <div class="form-group">
+                <label>Ton rôle</label>
+                <input type="text" id="inputRole" placeholder="Ex : Futur dev" value="Futur dev">
+            </div>
+
+            <div class="form-group">
+                <label>Ta bio (courte)</label>
+                <input type="text" id="inputBio" placeholder="Ex : J'apprends à coder" value="J'apprends à coder 🚀">
+            </div>
+
+            <div class="form-group">
+                <label>Ton emoji préféré</label>
+                <input type="text" id="inputEmoji" placeholder="Ex : 🦊" value="🦊" maxlength="2">
+            </div>
+        </div>
+
+        <!-- RIGHT: live preview -->
+        <div class="card-panel" id="cardPanel">
+            <div class="avatar" id="cardAvatar">🦊</div>
+            <div class="card-name" id="cardName">Anis</div>
+            <div class="card-role" id="cardRole">Futur dev</div>
+            <div class="card-bio" id="cardBio">J'apprends à coder 🚀</div>
+        </div>
+    </div>
+
+    <script src="./js/index.js">
+
+    </script>
+
+</body>
+</html>
